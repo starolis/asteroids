@@ -75,6 +75,7 @@ while running:
     if keys[pygame.K_RIGHT] and spaceship_rect.right < width:
         spaceship_rect.x += 5
 
+
     # Move bullets
     for bullet in bullets[:]:
         bullet.y += bullet_speed
